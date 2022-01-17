@@ -40,7 +40,7 @@ const Property = ({
         />
       </Box>
       <Box w="full">
-        <Flex paddingTop="2" alignItems="center" justifyContet="space-between">
+        <Flex paddingTop="2" alignItems="center" justifyContent="space-between">
           <Flex alignItem="center">
             <Box paddingRight="3" color="greaan.400">
               {isVerified && <GoVerified />}

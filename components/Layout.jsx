@@ -1,21 +1,24 @@
 import Head from 'next/head';
 import { Box } from '@chakra-ui/react';
 
+import Navbar from './Navbar'
+import Footer from './Footer'
+
 export default function Layout({ children }) {
     return (
         <>
             <Head>
                 <title>Real Estate</title>
             </Head>
-            <Box maxWidth="1200px" m="auto">
+            <Box maxWidth="1280px" m="auto">
                 <header>
-                    Navbar
+                    <Navbar />
                 </header>
                 <main>
                     {children}
                 </main>
                 <footer>
-                    Footer
+                    <Footer />
                 </footer>
             </Box> 
         </>
